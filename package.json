@@ -1,0 +1,31 @@
+{
+  "name": "react-oss-starter",
+  "version": "0.0.0",
+  "description": "description",
+  "main": "build/index.js",
+  "license": "MIT",
+  "author": "name",
+  "repository": {
+    "url": "http://github-url.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-transition-group": "^2.2.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "webpack": "^2.6.1"
+  }
+}
